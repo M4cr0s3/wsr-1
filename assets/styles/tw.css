@@ -1,0 +1,128 @@
+
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.col-4 {
+    width: 33%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.gap-1 {
+    gap: 4px;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: .7rem;
+}
+
+.mt-3 {
+    margin-top: .85rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mt-5 {
+    margin-top: 2rem;
+}
+
+
+.pr-4 {
+    padding-right: 1.25rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.p-5 {
+    padding: 1.25rem;
+}
+
+.columns-3 {
+    columns: 3 auto;
+}
+
+.col-6 {
+    width: 49.999999%;
+    flex: 0 auto;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}

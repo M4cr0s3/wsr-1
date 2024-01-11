@@ -13,52 +13,54 @@
     <header class="">
         <div class="container flex items-center justify-between">
             <div class="logo flex items-center">
-                <div style="border-radius: 8px; background-color:gray; width: 60px; height: 60px;"></div>
-                <h1>EVANCY</h1>
+                <div style="border-radius: 8px; background-color: rgba(255,255,255, .1); width: 60px; height: 60px;"></div>
+                <h1 class="font-manrope-extrabold">EVANCY</h1>
             </div>
             <nav>
                 <ul class="flex items-center">
                     <li>
-                        <a href="">
+                        <a href="" class="font-manrope-medium">
                             Локации
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="" class="font-manrope-medium">
                             Сотрудники
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="" class="font-manrope-medium">
                             Программы
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="" class="font-manrope-medium">
                             Акции
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="">
-                <a href="tel:7xxxxxxxx99">
+            <div class="font-manrope-medium">
+                <a href="tel:7xxxxxxxx99" class="text-black">
                     +7xxxxxxxx99
                 </a>
             </div>
             <div class="">
                 <select>
                     <option disabled>Выберите город</option>
-                    <option>Москва</option>
-                    <option>Санкт-Петербург</option>
-                    <option>Нижний Новгород</option>
+                    <option class="font-manrope-bold">Москва</option>
+                    <option class="font-manrope-bold">Санкт-Петербург</option>
+                    <option class="font-manrope-bold">Нижний Новгород</option>
                 </select>
             </div>
             <div class="">
-                <a href="">
+                <a href="" class="font-manrope-medium flex items-center gap-1 text-black">
                     Войти
-                    <span>
-                →
-            </span>
+                    <span class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path
+                                fill="currentColor"
+                                d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48"/></svg>
+                    </span>
                 </a>
             </div>
         </div>
@@ -66,19 +68,21 @@
     <div class="container flex items-center main-screen relative">
         <div class="card flex items-center">
             <div class="col-2 flex flex-col">
-                <div class="card__title">
+                <div class="card__title font-manrope-bold">
                     <h1>
                         Событие 1
                     </h1>
                 </div>
-                <div class="card__description flex flex-col mt-2 pr-4">
-                    dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfssssssssssss
-                    aaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaa
-                    aaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfss
-                    sssssss
+                <div class="card__description flex flex-col mt-2 pr-4 font-manrope-regular">
+                    <p>
+                        dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfssssssssssss
+                        aaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaa
+                        aaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfsssssssssaaaaaaaaaaaaadfss
+                        sssssss
+                    </p>
                 </div>
                 <div class="mt-2 flex">
-                    <a href="" class="card__button">
+                    <a href="" class="card__button font-manrope-semibold">
                         Записаться
                     </a>
                 </div>
@@ -90,12 +94,20 @@
         </div>
         <div class="absolute right">
             <span class="arrow">
-                →
+                 <span class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 256 256"><path
+                                fill="currentColor"
+                                d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48"/></svg>
+                     </span>
             </span>
         </div>
         <div class="absolute left">
             <span class="arrow">
-                ←
+                 <span class="flex items-center">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 256 256"><path
+                               fill="currentColor"
+                               d="M224 128a8 8 0 0 1-8 8H59.31l58.35 58.34a8 8 0 0 1-11.32 11.32l-72-72a8 8 0 0 1 0-11.32l72-72a8 8 0 0 1 11.32 11.32L59.31 120H216a8 8 0 0 1 8 8"/></svg>
+                 </span>
             </span>
         </div>
     </div>
@@ -103,40 +115,211 @@
 <main>
     <section class="section-padding">
         <div class="container flex items-center">
-            <div class="stat flex-col col-3">
-                <div class="stat__title">
+            <div class="stat flex-col col-4">
+                <div class="stat__title font-manrope-bold">
                     10000+
                 </div>
-                <div class="stat__description">
+                <div class="stat__description font-manrope-light    ">
                     Чего-то лютого, что прям невозможно
                 </div>
             </div>
-            <div class="stat flex-col col-3">
-                <div class="stat__title">
+            <div class="stat flex-col col-4">
+                <div class="stat__title font-manrope-bold">
                     10000+
                 </div>
-                <div class="stat__description">
+                <div class="stat__description font-manrope-light    ">
                     Чего-то лютого, что прям невозможно
                 </div>
             </div>
-            <div class="stat flex-col col-3">
-                <div class="stat__title">
+            <div class="stat flex-col col-4">
+                <div class="stat__title font-manrope-bold">
                     10000+
                 </div>
-                <div class="stat__description">
+                <div class="stat__description font-manrope-light">
                     Чего-то лютого, что прям невозможно
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-padding">
-        <h1 class="section-title">Наши сотрудники</h1>
-        <div class="container mt-4">
-
+    <section class="section-padding-bottom">
+        <h1 class="section-title text-center font-manrope-bold">Услуги</h1>
+        <div class="container flex-wrap flex mt-5">
+            <div class="col-6 flex">
+                Корпоративы
+            </div>
+            <div class="col-6">
+                Дни рождения
+            </div>
+            <div class="col-6">
+                Свадьбы
+            </div>
+            <div class="col-6">
+                Event мероприятия
+            </div>
+            <div class="col-6">
+                Спортивные мероприятия
+            </div>
+            <div class="col-6">
+                Деловые мероприятия
+            </div>
+            <div class="col-6">
+                Детские праздники
+            </div>
+        </div>
+    </section>
+    <section class="section-padding-bottom">
+        <h1 class="section-title text-center font-manrope-bold">Наши сотрудники</h1>
+        <div class="container mt-5 flex">
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <a href="" class="col-3 flex flex-col items-center p-5 employee__card text-black">
+                <div class="employee__img"
+                     style="background-image: url(&quot;https://thumb.tildacdn.com/tild6465-6335-4366-b030-613539363135/-/cover/240x240/center/center/-/format/webp/IMG_3376.jpg&quot;);">
+                </div>
+                <div class="employee__title font-manrope-bold">
+                    Наталья Пышнова
+                </div>
+                <div class="employee__description text-center font-manrope-medium">
+                    Коммерческий директор
+                    natalyapishnova@evancy.evt
+                </div>
+            </a>
+            <div class="flex-col flex w-full mt-3">
+                <a href="" class="card__button font-manrope-medium self-center">ПОСМОТРЕТЬ ВСЕХ</a>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding-bottom">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <h1 class="section-title font-manrope-bold">
+                    Кейсы
+                </h1>
+                <div class="flex items-center">
+                    <h2 class="text-xl font-manrope-semibold">Все кейсы</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 256 256">
+                        <path
+                                fill="currentColor"
+                                d="m220.24 132.24l-72 72a6 6 0 0 1-8.48-8.48L201.51 134H40a6 6 0 0 1 0-12h161.51l-61.75-61.76a6 6 0 0 1 8.48-8.48l72 72a6 6 0 0 1 0 8.48"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="mt-5 flex cases">
+                <a href="" class="col-4 case__item">
+                    <div class="case__img"
+                         style="background-image: url(&quot;https://tfd-agency.ru/wp-content/uploads/2022/03/nokian-15-400x300.jpg&quot;)">
+                    </div>
+                </a>
+                <a href="" class="col-4 case__item">
+                    <div class="case__img"
+                         style="background-image: url(&quot;https://tfd-agency.ru/wp-content/uploads/2022/03/okko13-400x300.jpg&quot;)">
+                    </div>
+                </a>
+                <a href="" class="col-4 case__item">
+                    <div class="case__img"
+                         style="background-image: url(&quot;https://tfd-agency.ru/wp-content/uploads/2022/03/mega2-400x300.jpg&quot;)">
+                    </div>
+                </a>
+                <a href="" class="col-4 case__item">
+                    <div class="case__img"
+                         style="background-image: url(&quot;https://cdn.optipic.io/site-102486/wp-content/uploads/2020/09/i5.jpg&quot;)">
+                    </div>
+                </a>
+                <a href="" class="col-4 case__item">
+                    <div class="case__img"
+                         style="background-image: url(&quot;https://cdn.optipic.io/site-102486/wp-content/uploads/2020/09/i4.jpg&quot;)">
+                    </div>
+                </a>
+                <a href="" class="col-4 case__item">
+                    <div class="case__img"
+                         style="background-image: url(&quot;https://cdn.optipic.io/site-102486/wp-content/uploads/2020/09/i8.jpg&quot;)">
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 </main>
-
-
 </body>
 </html>

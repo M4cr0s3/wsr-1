@@ -1,3 +1,6 @@
+@import url("../fonts/fonts.css");
+@import url("./tw.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -6,35 +9,6 @@
 
 :root {
     --background-color: #f6f5f5;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-col {
-    flex-direction: column;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.col-2 {
-    width: 50%;
-}
-
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
 }
 
 header {
@@ -57,24 +31,12 @@ li {
     list-style: none;
 }
 
-.mt-2 {
-    margin-top: .7rem;
-}
-
-.mt-3 {
-    margin-top: .85rem;
-}
-
-.mt-4 {
-    margin-top: 1.5rem;
-}
-
-.pr-4 {
-    padding-right: 1.25rem;
+ul li a {
+    color: black;
 }
 
 .main-screen {
-    height: 30vw;
+    height: 40vw;
 }
 
 .card {
@@ -99,16 +61,8 @@ li {
     color: black;
     background-color: transparent;
     border: 1px solid black;
-    padding: 20px 40px;
+    padding: 15px 60px;
     font-size: 1.4rem;
-}
-
-.relative {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
 }
 
 .right {
@@ -119,7 +73,7 @@ li {
 
 .left {
     top: 50%;
-    left: -10%;
+    left: -5%;
     transform: translate(-50%, -50%);
 }
 
@@ -128,12 +82,12 @@ li {
     font-size: 3rem;
 }
 
-.col-3 {
-    width: 33.33333%;
-}
-
 .section-padding {
     padding: 80px 0;
+}
+
+.section-padding-bottom {
+    padding-bottom: 80px;
 }
 
 .stat__title {
@@ -143,11 +97,65 @@ li {
 
 .stat__description {
     font-size: 2rem;
-
 }
 
 .section-title {
-    text-align: center;
     font-size: 4.5rem;
 }
 
+.employee__img {
+    border-radius: 100%;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+select {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.employee__title {
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+
+.employee__description {
+    font-size: .9rem;
+    margin-top: 2px;
+}
+
+.employee__card {
+    border: 1px transparent solid;
+    border-radius: 20px;
+    transition: .5s all;
+}
+
+.employee__card:hover {
+    transition: .3s all ease-in-out;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.cases {
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.case__img {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: .5s all;
+}
+
+.case__img:hover {
+    filter: brightness(70%);
+    transition: .3s ease-in-out all;
+}
