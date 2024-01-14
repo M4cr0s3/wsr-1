@@ -1,0 +1,42 @@
+@import url('./style.css');
+
+.wrapper__register {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: var(--background-color);
+    padding: 30px 100px 40px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+form .card__button {
+    width: 100%;
+}
+
+form input, textarea {
+    width: 100%;
+    min-width: 300px;
+    background-color: transparent;
+}
+
+form label {
+    width: 100%; !important;
+}
+
+.gapped__fields {
+    gap: 30px;
+}
+
+form .card__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 20px; !important;
+    box-shadow: var(--box-shadow);
+}
