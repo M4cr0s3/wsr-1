@@ -1,0 +1,73 @@
+@import url('./style.css');
+
+.program__photos {
+    flex-wrap: wrap;
+}
+
+.program__photos img {
+    width: 25%;
+    object-fit: cover;
+}
+
+.program__card h2 {
+    margin: 40px 0 80px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.program__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: var(--background-color);
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+.program__card:before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    top: 30px;
+    transform: translate(-50%, 50%);
+    right: 0;
+    height: 1px;
+    background-color: var(--background-color);
+}
+
+.program__plan {
+    width: 50%;
+}
+
+
+.program__plan__title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.program__plan__specification {
+    margin: 20px 0;
+}
+
+ul li {
+    margin: 20px 0;
+    list-style-type: disc;
+    font-family: 'Manrope', sans-serif;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.program__card {
+    margin-top: 80px;
+}
+
+
+/*https://eventsecret.ru/top-tematiki-den-rozhdeniya?ysclid=lrivjqwhtj330615741*/
