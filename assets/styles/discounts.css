@@ -1,0 +1,13 @@
+@import url('./programs.css');
+
+.program__card__ver__2:before {
+    display: none;
+}
+
+.program__card__ver__2 {
+    margin-top: 10px;
+}
+
+.program__card__ver__2 h2 {
+    padding: 0 50px;
+}

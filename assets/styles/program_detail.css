@@ -1,0 +1,59 @@
+@import url('./programs.css');
+
+.wrapper {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../assets/images/programs/Heroes/Heroes_1.jpg');
+    position: relative;
+    z-index: -10;
+}
+
+.dark_wrapper {
+    background: linear-gradient(90deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+}
+
+
+header select {
+    border: 1px solid white;
+    color: white;
+}
+
+select option {
+    color: black;
+}
+
+.main-screen {
+    height: 40vw;
+}
+
+.wrapper .card__button {
+    border: 1px solid white;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.program__card {
+    margin-top: 20px;
+}
+
+.price__constructor .page {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/*https://nn.hh.ru/vacancy/87167312?query=node&hhtmFrom=vacancy_search_list*/
